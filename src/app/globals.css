@@ -9,14 +9,12 @@ body {
 
 h1 {
   @apply text-white;
-  @apply text-8xl;
   @apply font-bold;
 }
 
 h2 {
   @apply text-white;
-  @apply text-2xl;
-  @apply font-chakra
+  @apply font-chakra;
 }
 
 .font-chakra {
@@ -25,12 +23,12 @@ h2 {
 
 @keyframes fadeIn {
   from {
-      opacity: 0;
-      transform: translateY(20px);
+    opacity: 0;
+    transform: translateY(20px);
   }
   to {
-      opacity: 1;
-      transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
