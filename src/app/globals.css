@@ -32,6 +32,36 @@ h2 {
   }
 }
 
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes delayedAppearance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .animate-fadeIn {
   animation: fadeIn 1.5s ease-out forwards;
+}
+
+.animate-bounce {
+  animation: bounce 2s infinite;
+}
+
+.delayed-appearance {
+  animation: delayedAppearance 2s ease-out forwards, bounce 2s infinite 2s;
+}
+
+.fade-in-bounce {
+  animation: fadeIn 1.5s ease-out 2s forwards, bounce 2s infinite;
 }
