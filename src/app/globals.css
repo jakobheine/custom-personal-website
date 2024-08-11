@@ -63,5 +63,5 @@ h2 {
 }
 
 .fade-in-bounce {
-  animation: fadeIn 1.5s ease-out 2s forwards, bounce 2s infinite;
+  animation: fadeIn 1.5s ease-out 4.5s forwards, bounce 2s infinite;
 }
