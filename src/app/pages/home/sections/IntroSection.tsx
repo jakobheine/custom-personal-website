@@ -24,7 +24,7 @@ export function IntroSection() {
           </h2> */}
         </div>
       </div>
-      <div className="mt-8 mb-10">
+      <div className="mt-8 mb-20">
         <svg
           id="scroll-button"
           className="w-20 h-20 sm:w-24 sm:h-24 md:w-12 md:h-12 lg:w-16 lg:h-16 text-white cursor-pointer opacity-0 delayed-appearance fade-in-bounce"
