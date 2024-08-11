@@ -65,3 +65,25 @@ h2 {
 .fade-in-bounce {
   animation: fadeIn 1.5s ease-out 4.5s forwards, bounce 2s infinite;
 }
+
+/* asdasdsad */
+
+.icon-container {
+  display: inline-block;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.icon-container:hover {
+  transform: translateY(-10px);
+}
+
+.icon-container:active {
+  transform: translateY(-5px);
+}
+
+.bounce-icon {
+  fill: white;
+  transition: transform 0.2s ease-in-out;
+}

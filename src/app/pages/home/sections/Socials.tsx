@@ -5,7 +5,7 @@ export function Socials() {
   return (
     <div className="flex justify-center mt-20">
       <div className="flex space-x-20">
-      <div className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20">
+      <div className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 icon-container">
           <a
             href="https://linkedin.com/in/jakob-heine"
             target="_blank"
@@ -16,11 +16,11 @@ export function Socials() {
               alt="LinkedIn"
               width={80}
               height={80}
-              className="w-full h-full"
+              className="w-full h-full bounce-icon"
             />
           </a>
         </div>
-        <div className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20">
+        <div className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 icon-container">
           <a
             href="https://github.com/jakobheine"
             target="_blank"
@@ -31,11 +31,11 @@ export function Socials() {
               alt="GitHub"
               width={80}
               height={80}
-              className="w-full h-full"
+              className="w-full h-full bounce-icon"
             />
           </a>
         </div>
-        <div className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20">
+        <div className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 icon-container">
           <a
             href="https://instagram.com/_jakobheine"
             target="_blank"
@@ -46,7 +46,7 @@ export function Socials() {
               alt="Instagram"
               width={80}
               height={80}
-              className="w-full h-full"
+              className="w-full h-full bounce-icon"
             />
           </a>
         </div>

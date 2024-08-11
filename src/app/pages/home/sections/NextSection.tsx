@@ -1,8 +1,23 @@
 /* eslint-disable react/no-unescaped-entities */
-import Image from "next/image";
+import React from "react";
 import { Socials } from "./Socials";
+import { EmailContact } from "./EmailContact";
 
 export function NextSection() {
+  // Function to calculate age based on the given birthdate and current date
+  const calculateAge = (dateString: string): number => {
+    const birthDate = new Date(dateString);
+    const today = new Date();
+
+    // Ensure both are treated as numbers
+    const ageInMilliseconds = today.getTime() - birthDate.getTime();
+    const ageDate = new Date(ageInMilliseconds); // Age in milliseconds converted to a date
+    return Math.abs(ageDate.getUTCFullYear() - 1970); // Subtract 1970 (epoch year) to get the actual age
+  };
+
+  // Calculate the age based on the provided birthdate
+  const age = calculateAge("1997-11-21");
+
   return (
     <div
       id="next-section"
@@ -13,10 +28,10 @@ export function NextSection() {
           Welcome to My Homepage
           <br />
           <br />
-          Hello! I'm Jakob, a 26-year-old living in the beautiful city of
+          Hello! I'm Jakob, {age} years old, living in the beautiful city of
           Dresden with my fiancée and my dog. I work for Deloitte, specializing
           in product development on AWS.
-          <br />
+          {/* <br />
           <br />
           This website is still a work in progress. In true Continuous
           Deployment fashion, I’ll be updating it live as I make changes—so keep
@@ -24,14 +39,18 @@ export function NextSection() {
           <br />
           <br />
           I'm currently busy planning a wedding and enjoying the summer. More
-          exciting updates will come as soon as I find the time!
+          exciting updates will come as soon as I find the time! */}
           <br />
+          <br />
+        </p>
+        <EmailContact />
+        <p className="text-left text-white text-xl sm:text-2xl">
           <br />
           So Long,
           <br />
           Jakob
         </p>
-        <Socials/>
+        <Socials />
       </div>
     </div>
   );
