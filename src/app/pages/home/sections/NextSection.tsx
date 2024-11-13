@@ -29,17 +29,7 @@ export function NextSection() {
           <br />
           <br />
           Hello! I'm Jakob, {age} years old, living in the beautiful city of
-          Dresden with my fiancée and my dog. I work for Deloitte, specializing
-          in product development on AWS.
-          {/* <br />
-          <br />
-          This website is still a work in progress. In true Continuous
-          Deployment fashion, I’ll be updating it live as I make changes—so keep
-          an eye out for new content! :P
-          <br />
-          <br />
-          I'm currently busy planning a wedding and enjoying the summer. More
-          exciting updates will come as soon as I find the time! */}
+          Dresden with my fiancée and my dog. I work as Software Development Engineer for Amazon.
           <br />
           <br />
         </p>
