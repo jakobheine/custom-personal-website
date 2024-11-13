@@ -29,7 +29,8 @@ export function NextSection() {
           <br />
           <br />
           Hello! I'm Jakob, {age} years old, living in the beautiful city of
-          Dresden with my fiancée and my dog. I work as Software Development Engineer for Amazon.
+          Dresden with my fiancée and my dog. 
+          {/* I work as Software Development Engineer for Amazon. */}
           <br />
           <br />
         </p>
