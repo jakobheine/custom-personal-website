@@ -32,7 +32,7 @@ jobs:
         aws-region: eu-central-1  # Change to your AWS region
 
     - name: Sync S3 bucket
-      run: aws s3 sync ./out s3://jakobheine.de --delete
+      run: aws s3 sync ./out s3://${{ secrets.S3_BUCKET_NAME}} --delete
       # --delete flag ensures that files deleted locally are also deleted from the bucket
 
     - name: Invalidate CloudFront distribution
