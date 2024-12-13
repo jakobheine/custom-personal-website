@@ -19,9 +19,6 @@ export function IntroSection() {
           <h1 className="text-4xl md:text-8xl">
             <VideoPlayer/>
           </h1>
-          {/* <h2 className="mt-4 md:mt-10 text-xs sm:text-lg md:text-2xl lg:text-3xl font-chakra">
-            Senior Software Engineer
-          </h2> */}
         </div>
       </div>
       <div className="mt-8 mb-20">
