@@ -50,6 +50,21 @@ export function Socials() {
             />
           </a>
         </div>
+        <div className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 icon-container">
+          <a
+            href="https://www.youtube.com/@jakobheine4160/videos"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/svgs/youtube.svg"
+              alt="Youtube"
+              width={80}
+              height={80}
+              className="w-full h-full bounce-icon"
+            />
+          </a>
+        </div>
       </div>
     </div>
   );
